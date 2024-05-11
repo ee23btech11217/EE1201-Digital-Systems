@@ -1,0 +1,98 @@
+$date
+	Fri Apr  5 12:46:38 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module tbshiftreg $end
+$var wire 4 ! dout [3:0] $end
+$var reg 1 " clk $end
+$var reg 1 # din $end
+$var reg 1 $ res $end
+$scope module dut $end
+$var wire 1 " clk $end
+$var wire 1 # din $end
+$var wire 1 $ res $end
+$var wire 4 % dout [3:0] $end
+$scope begin genblk1[1] $end
+$scope module fa $end
+$var wire 1 " clk $end
+$var wire 1 & din $end
+$var wire 1 $ res $end
+$var reg 1 ' dout $end
+$upscope $end
+$upscope $end
+$scope begin genblk1[2] $end
+$scope module fa $end
+$var wire 1 " clk $end
+$var wire 1 ( din $end
+$var wire 1 $ res $end
+$var reg 1 ) dout $end
+$upscope $end
+$upscope $end
+$scope module fa $end
+$var wire 1 " clk $end
+$var wire 1 # din $end
+$var wire 1 $ res $end
+$var reg 1 * dout $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0*
+0)
+0(
+0'
+z&
+b0z0 %
+1$
+0#
+0"
+b0z0 !
+$end
+#3
+1#
+0$
+#5
+1"
+#10
+z(
+1*
+b0zz1 !
+b0zz1 %
+z'
+0"
+#11
+0#
+#15
+1"
+#20
+z)
+bz0 !
+bz0 %
+0*
+0"
+#25
+1"
+#26
+1#
+#30
+bz1 !
+bz1 %
+1*
+0"
+#32
+0#
+#35
+1"
+#40
+bz0 !
+bz0 %
+0*
+0"
+#42
